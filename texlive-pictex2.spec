@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/pictex2/pictex2.sty
+# catalog-date 2007-01-13 09:26:05 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-pictex2
 Version:	20070113
 Release:	1
@@ -37,6 +43,7 @@ if the line segment is horizontal or vertical.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/pictex2/pictex2.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,3 +54,5 @@ if the line segment is horizontal or vertical.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
