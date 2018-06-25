@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-pictex2
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Adds relative coordinates and improves the \plot command
 Group:		Publishing
