@@ -1,6 +1,6 @@
 Name:		texlive-pictex2
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Adds relative coordinates and improves the \plot command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pictex2/pictex2.sty
