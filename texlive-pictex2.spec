@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Adds relative coordinates and improves the \plot command
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pictex2/pictex2.sty
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pictex2/pictex2.sty
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pictex2.r%{version}.tar.xz
 BuildArch:	noarch
